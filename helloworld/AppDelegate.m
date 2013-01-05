@@ -13,6 +13,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"hello world");
+    
+    int x;
+    x = 10;
+    int y = 20;
+    
+    NSLog(@"o valor da variavel e %d",x);
+    
+    /*
+     %d int
+     %c char
+     %@ string
+     %f float
+     %lr double
+     */
+    
     return YES;
 }
 							
